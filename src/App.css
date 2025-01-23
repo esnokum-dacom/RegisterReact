@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  place-content: center;
+  background-color: #e4e3f1;
+}
+
+.Container {
+  margin-top: 100px;
+  height: 100vh;
+}
+
+.SesIni {
+  overflow: hidden;
+  border-radius: 20px;
+  background: linear-gradient(#c4c5cd 40%, #a0a2a7 90%);
+  width: 600px;
+  height: 450px;
+  display: flex;
+  place-items: center;
+  position: relative;
+}
+
+.Objs_Ini {
+  z-index: 1;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  height: 20px;
+  width: 20px;
+}
+
+.ImSR {
+  z-index: 1;
+  width: 320px;
+  height: 100%;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.Us_Mail {
+  z-index: 1;
+  color: #4b4b59;
+  height: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: #fbfcff;
+  border-radius: 10px;
+}
+
+.Pass {
+  z-index: 1;
+  color: #4b4b59;
+  height: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: #fbfcff;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.NoPass {
+  display: none;
+}
+
+.BSub {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #fbfcff;
+  cursor: pointer;
+}
+
+.BUtp {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+.BIn {
+  width: 80px;
+  border: none;
+  outline: none;
+  background-color: #0000;
+  cursor: pointer;
+}
+
+.LineG {
+  position: absolute;
+  transform: translate(-41px, 22px);
+  height: 2px;
+  width: 40px;
+  background-color: #4b4b59;
+  transition: 1s;
+}
+
+.LineQ {
+  position: absolute;
+  transform: translate(41px, 22px);
+  height: 2px;
+  width: 40px;
+  background-color: #4b4b59;
+  transition: 1s;
+}
+
+.Testx {
+  margin: -10px;
+  color: #80808540;
+  z-index: 0;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  width: 300px;
+}
